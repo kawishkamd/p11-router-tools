@@ -89,6 +89,21 @@ Tested on:
 - **Chrome, Chromium, Brave, Edge** (Chromium-based)
 - **Dialog ISP firmware** (others may work)
 
+## 🧵 Extra
+
+CLI Tool
+
+A **Bash CLI toolkit** for automating router operations via command line. Especially useful in low signal areas where cell towers frequently change, causing disconnections and unstable connections.(so you don't have to manually login to the WebUI every time the cell changes)
+
+### Usage:
+```bash
+cd cli/
+chmod +x p11h.sh
+./p11h.sh
+```
+
+> **Requirements:** `curl` and basic Unix tools. Tested on Linux.
+
 ---
 
 ## 📄 License
