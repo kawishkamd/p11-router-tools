@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "ZLT P11H In-Page Toolbar",
+  "version": "1.0",
+  "description": "Quick access to ISP-hidden router menus.",
+  "icons": {
+    "48": "icon48.png"
+  },
+  "host_permissions": [
+    "http://192.168.8.1/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://192.168.8.1/*"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}
