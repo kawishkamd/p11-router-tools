@@ -121,3 +121,5 @@ Found a bug or want to add a feature? Pull requests are welcome!
 ## ⚠️ Disclaimer
 
 This extension is provided as-is with no warranty. Use at your own risk. The author is not responsible for any damage to your router or network configuration.
+
+![preview](preview.jpeg)
