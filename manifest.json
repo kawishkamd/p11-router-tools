@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Quick access to ISP-hidden router menus.",
   "icons": {
-    "48": "icon48.jpeg"
+    "48": "icon48.png"
   },
   "host_permissions": [
     "http://192.168.8.1/*"
