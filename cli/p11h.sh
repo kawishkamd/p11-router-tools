@@ -10,6 +10,7 @@ PASS_B64=$(echo -n "$PASS_MD5" | base64)
 
 usage() {
   echo "Usage:"
+  echo "  $0 status"
   echo "  $0 lock <earfcn> <pci>"
   echo "  $0 unlock"
   echo "  $0 reboot"
@@ -60,9 +61,20 @@ do_reboot() {
   fi
 }
 
+do_status() {
+  do_login
+  echo "[*] Getting system status..."
+  RESP=$(curl -s -b cookies.txt \
+    "$ROUTER/reqproc/proc_get?isTest=false&cmd=system_status")
+
+  echo "[+] Status raw JSON:"
+  echo "$RESP" | sed 's/,/\n/g' | sed 's/{//;s/}//'
+}
+
 case "$1" in
   lock)   do_lock "$2" "$3" ;;
   unlock) do_unlock ;;
   reboot) do_reboot ;;
+  status) do_status ;;
   *)      usage ;;
 esac
