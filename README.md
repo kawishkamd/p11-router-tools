@@ -37,17 +37,20 @@ This extension simply exposes those pages again by creating UI buttons that send
 
 ## 📦 Installation (Manual)
 
-Because this is a local Chrome extension, you install it manually:
+Because this is a local extension, you can install it manually on Chrome or Firefox.
 
+### Chrome / Chromium / Edge / Brave
 1. **Download or clone** this repository
-2. Open **Chrome/Chrome Based Browser → Extensions**
-3. Enable **Developer Mode** (top-right toggle)
+2. Open your browser and go to `chrome://extensions/` (or equivalent for your browser)
+3. Enable **Developer mode** (top-right toggle)
 4. Click **Load unpacked**
-5. Select the folder containing:
-   - `manifest.json`
-   - `content.js`
-   - `content.css`
-   - `icons/`
+5. Select the folder containing `manifest.json`
+
+### Firefox
+1. **Download or clone** this repository
+2. Open Firefox and go to `44
+3. Click **Load Temporary Add-on...**
+4. Select the `manifest.json` file inside the downloaded folder
 
 ## 💡 How to Use
 
@@ -87,6 +90,7 @@ Tested on:
 
 - **ZLT/P11 routers**
 - **Chrome, Chromium, Brave, Edge** (Chromium-based)
+- **Mozilla Firefox** (v109+)
 - **Dialog ISP firmware** (others may work)
 
 ## 🧵 Extra

@@ -6,14 +6,26 @@
   "icons": {
     "48": "icon48.png"
   },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "p11h-toolbar@p11h.local",
+      "strict_min_version": "109.0"
+    }
+  },
   "host_permissions": [
     "http://192.168.8.1/*"
   ],
   "content_scripts": [
     {
-      "matches": ["http://192.168.8.1/*"],
-      "js": ["content.js"],
-      "css": ["content.css"]
+      "matches": [
+        "http://192.168.8.1/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ]
     }
   ]
 }
