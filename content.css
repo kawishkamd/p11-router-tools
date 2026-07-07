@@ -35,3 +35,23 @@
 #p11-toolbar button:active {
   transform: translateY(1px);
 }
+
+#p11-toolbar a#p11-support-btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px 4px;
+  border-radius: 6px;
+  background: #FF5E5B;
+  color: #fff;
+  font-size: 10px;
+  transition: 0.15s;
+}
+
+#p11-toolbar a#p11-support-btn:hover {
+  background: #e04f4c;
+}
+
+#p11-toolbar a#p11-support-btn:active {
+  transform: translateY(1px);
+}

@@ -110,6 +110,14 @@ chmod +x p11h.sh
 
 ---
 
+## ☕ Support
+
+If this extension helped you access hidden settings on your router, please consider supporting the project:
+
+- **Ko-fi:** [Buy me a coffee on Ko-fi](https://ko-fi.com/kayz)
+
+---
+
 ## 📄 License
 
 This project is open-source. Feel free to fork, modify, and distribute.

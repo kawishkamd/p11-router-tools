@@ -45,6 +45,7 @@
       <button data-hash="nat">NAT</button>
       <button data-hash="l2tp">L2TP</button>
       <button data-hash="unlock">Unlock</button>
+      <a href="https://ko-fi.com/kayz" target="_blank" rel="noopener noreferrer" id="p11-support-btn">Support ☕</a>
     `;
 
     document.body.appendChild(bar);
