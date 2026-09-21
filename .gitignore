@@ -1,0 +1,3 @@
+# Never commit real credentials or session artifacts
+cli/p11h.conf
+cli/cookies.txt

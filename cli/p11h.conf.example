@@ -1,0 +1,7 @@
+# ZLT P11H router credentials for p11h.sh
+# Copy this file to p11h.conf and fill in your values.
+# p11h.conf is gitignored so real credentials never get committed.
+
+ROUTER="http://192.168.8.1"
+USER="admin"
+PASS="your-router-password"
